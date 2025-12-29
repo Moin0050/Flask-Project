@@ -1,0 +1,21 @@
+<nav>
+    <a href="/">Home</a>
+    <a href="/about">About</a>
+    <a href="/contact">Contact</a>
+</nav>
+<form action="/about" method="post">
+    <!-- Name field -->
+    <label for="name">Name:</label><br>
+    <input type="text" id="name" name="user_name" required><br><br>
+  
+    <!-- Email field -->
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="user_email" required><br><br>
+  
+    <!-- Message field -->
+    <label for="message">Message:</label><br>
+    <textarea id="message" name="user_message"></textarea><br><br>
+  
+    <!-- Submit button -->
+    <button type="submit">Send Message</button>
+  </form>
